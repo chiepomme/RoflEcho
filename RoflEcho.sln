@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoflEcho", "RoflEcho\RoflEcho.csproj", "{0E302E35-4E3C-4DBC-9E03-0C8BA8DB91AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoflEcho", "RoflEcho\RoflEcho.csproj", "{0E302E35-4E3C-4DBC-9E03-0C8BA8DB91AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoflEcho.Tests", "RoflEcho.Tests\RoflEcho.Tests.csproj", "{13A1C8C6-BD35-42C5-8632-B1EB012C6BAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0E302E35-4E3C-4DBC-9E03-0C8BA8DB91AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E302E35-4E3C-4DBC-9E03-0C8BA8DB91AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E302E35-4E3C-4DBC-9E03-0C8BA8DB91AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A1C8C6-BD35-42C5-8632-B1EB012C6BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A1C8C6-BD35-42C5-8632-B1EB012C6BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A1C8C6-BD35-42C5-8632-B1EB012C6BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A1C8C6-BD35-42C5-8632-B1EB012C6BAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
