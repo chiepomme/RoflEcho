@@ -10,10 +10,19 @@
     <PackageProjectUrl>https://github.com/chiepomme/RoflEcho</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/chiepomme/RoflEcho.git</RepositoryUrl>
+    <PackageIcon>RoflEcho.png</PackageIcon>
+    <ApplicationIcon>RoflEcho.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Management" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="RoflEcho.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
